@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Contact.css';
+import './contact.css';
 
 function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "", method: "email" });
