@@ -1,0 +1,119 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+/* Projects Section */
+
+#projects {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: white; /* Make all text white */
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.4s ease;
+  min-height: 320px;
+  color: white; /* Ensures card text is white */
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(13, 110, 253, 0.7);
+}
+
+.project-card .card-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: white; /* Title text white */
+}
+
+.project-card .card-text {
+  color: rgba(255, 255, 255, 0.85); /* Slightly softer white for description */
+}
+
+.project-card .badge {
+  font-size: 0.75rem;
+  padding: 5px 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.project-card .btn {
+  font-weight: 500;
+}
+
+.project-card .btn-primary {
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  border: none;
+  color: white;
+}
+.project-card .btn-primary:hover {
+  background: linear-gradient(90deg, #00d4ff, #007bff);
+  color: white;
+}
+
+.project-card .btn-outline-light {
+  border-color: white;
+  color: white;
+}
+.project-card .btn-outline-light:hover {
+  background: white;
+  color: black;
+}
+/* About Section */
+.about-section {
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+  color: white;
+
+}
+
+.profile-img {
+  border: 5px solid #0d6efd;
+  box-shadow: 0 0 25px rgba(13, 110, 253, 0.7);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px rgba(13, 110, 253, 1);
+}
+
+.about-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  position: relative;
+}
+.about-section h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #0d6efd;
+  margin-top: 5px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.about-section a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+.about-section .badge {
+  font-size: 0.9rem;
+  background-color: rgba(255,255,255,0.15);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+}

@@ -1,0 +1,131 @@
+/* ===== Contact Section ===== */
+.contact-section {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark gradient */
+  color: white;
+  padding: 80px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+.contact-section h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #00ffe0;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 0 0 15px #00ffe0, 0 0 25px #00ffe0;
+}
+
+.contact-intro {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* ===== Contact Info Card ===== */
+
+.contact-info {
+  background: linear-gradient(135deg, #342c57, #8775e1); 
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(146, 141, 171, 0.7); /* matching neon glow */
+}
+
+.contact-info h5 {
+  color: #ff8c00; /* Orange neon for heading */
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #ffe0b2; /* Light orange text for contrast */
+}
+
+.contact-info a {
+  color: #ff8c00; /* Orange links */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #ff00ff; /* Hover neon effect */
+  text-decoration: underline;
+}
+
+  
+
+/* ===== Contact Form ===== */
+.contact-form {
+  background: linear-gradient(135deg, #0a1f44, #122b5c); /* Dark blue gradient */
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 35px;
+  border: 1px solid rgba(0, 180, 255, 0.3);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form .form-label {
+  color: #a0d8ff; /* Light cyan labels */
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: rgba(5, 18, 40, 0.7); /* Dark navy input fields */
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 12px #00bfff, 0 0 20px #00bfff; /* Blue glow on focus */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ===== Send Button (Matching Blue Theme) ===== */
+.contact-form button {
+  background: linear-gradient(45deg, #00bfff, #004080); /* Neon blue gradient */
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px #00bfff, 0 0 25px #004080;
+}
+
+.contact-form button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 5px #00bfff, 0 0 5px #004080;
+  opacity: 0.95;
+}
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  .contact-info {
+    margin-bottom: 30px;
+  }
+}
